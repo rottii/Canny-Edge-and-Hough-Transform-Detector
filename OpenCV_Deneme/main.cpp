@@ -395,7 +395,7 @@ void CircleDetection(Mat img, Mat imgOut, int numberOfCircles, int radius)
 
 int main()
 {
-    Mat imgColor = imread("C:\\Users\\iboro\\OneDrive\\Belgeler\\Goruntu isleme resimler\\b.png", IMREAD_COLOR);
+    Mat imgColor = imread("a.png", IMREAD_COLOR);
 
     if (imgColor.empty()) {
         cout << "Error: Could not load image!" << endl;
@@ -419,10 +419,6 @@ int main()
     LineDetection(img, imgColor, 4, 180);// input image, output image, number of lines, theta resolution
 
     CircleDetection(img, imgColor, 10, 67);// input image, output image, number of circles, radius
-
-    //cv::namedWindow("Edges", cv::WINDOW_NORMAL);
-    //cv::namedWindow("Lines", cv::WINDOW_NORMAL);
-    //cv::namedWindow("Direction image", cv::WINDOW_NORMAL);
 
     cv::imshow("Edges", img);
     cv::imshow("Lines", imgColor);
