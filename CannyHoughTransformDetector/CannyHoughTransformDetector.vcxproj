@@ -22,7 +22,7 @@
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{6c2c4511-053b-4ca7-aa0a-0f54b1f947c7}</ProjectGuid>
-    <RootNamespace>OpenCVDeneme</RootNamespace>
+    <RootNamespace>CannyHoughTransformDetector</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>CannyHoughTransformDetector</ProjectName>
   </PropertyGroup>
